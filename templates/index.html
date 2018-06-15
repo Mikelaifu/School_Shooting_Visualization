@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <title>The US School Shooting Data Analysis Visualization </title>
+    
+  	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  	<!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+  	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://unpkg.com/simple-statistics@5.0.0/dist/simple-statistics.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  
+  
+  <style>
+        
+
+        .wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
+
+}
+
+      .jumbotron{
+        text-align: center;
+        background-color:black;
+        color : black;
+        font-weight: bold
+      }
+
+      nav{
+
+        background-color: 	#303030;
+        color : white;
+        font-weight: bold
+
+      }
+      #intro,
+      #map_title,
+      #bar_title,
+      #pie_title,
+      #choose_state,
+      #table_title{
+        text-align: center;
+        background-color: 	#303030 ;
+        color : white;
+        font-weight: bold
+
+      }
+        
+
+        body {
+            
+            margin: 1200;
+            background-color:white;
+            }
+
+/* set map, body, and html to 100% of the screen size */
+        #map {
+
+        height: 557px; 
+        }
+
+       select{
+        background-color: white;
+        color : black;
+       }
+        #buttonState,
+        #buttonYear{
+        width: 252px;
+        }
+
+        #PP{
+          font-size: 15px; 
+        }
+
+        #word1 {
+          margin: 10%;
+          
+        }
+        #word2 {
+          margin: 12%;
+          
+        }
+        #word3{
+          margin: 16%;
+          
+        }
+
+        #table{
+              font-family: Arial;
+              font-size: 11px;
+            text-align: center;
+            margin: 12%;
+          }
+       
+        tr{
+            background-color: #FF8448;
+
+        }
+        td{
+            background-color: #0099FF;
+
+        }
+        table{
+            color: #FFFFFF;
+            
+        }
+
+        .jumbotron {
+  position: relative;
+  height: 550px;
+  padding: 20px;
+  margin: 0;
+  
+  background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?cs=srgb&dl=earth-lights-world-41949.jpg&fm=jpg");
+  background-attachment: fixed;
+  background-position: center ;
+  background-size: cover;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+
+
+.jumbotron h1 {
+  margin-top: 200px;
+  font-size: 50px;
+  color: white;
+  
+}
+
+#option_table{
+    font-size: 20px;
+    
+  }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ 
+
+        
+  </style>
+
+</head>
+<body>
+
+<div class="wrapper">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/" style="background-color: black"> <font color="white">Home</font></a>
+      </div>
+      
+      <ul class="nav navbar-nav">
+        <li id = 'option_table'><a href="/table">Table</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>School Shooting (US, 2013-2018) Data Visualization </h1>  
+  </div> 
+</div>
+
+<div class="row">
+  <div class="container">
+  <div class="col-md-3">
+      <div class="panel panel-primary">
+          <div class="panel-body" id = "intro">
+          Select Year
+          </div>
+          <div id = 'button'>
+              <select id = 'buttonYear'></select>
+          </div>
+          <div id = 'word1'>
+            <h3>Background</h3>
+            <p id = "PP">Each year particularly in recent news, there have been issues surrounding mass school shooting which have risen 
+              to become a controversial topic. Here is the data which maps the visual points that displays school shooting from the 
+              years 2013 - 2018. After selecting a year, the first layer of the map will plot each shooting location as well as 
+              information such as school names, state, city, date, death and injury.</p>
+              <p id = "PP">Second layer of map will plot each location in the shape of circle
+             whose sizes are determined by the number of cacualties.</p>
+             <hr>
+          </div>
+          </div>
+    </div>
+        <div class="col-md-9">
+          <div class="panel panel-default" id = 'map_panel'>
+            <div class="panel-body" id = "map_title">
+            Map
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="container">
+      <div class="col-md-12">
+          <span style="display:block; height: 25px;"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="container">
+    <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-body" id = "intro">
+            Pie Chart
+            </div>
+            <div id = "word2">
+    <p id = "PP">
+        From the pie chart, we can visualize the top 10 states from 2013 to 2018 which have had most school shooting incidents 
+        by the percentge of each state's shooting incidents along with each city and school where the incident happened.
+    </p>
+    <hr>
+    <h4>Conclusion:  </h4>
+    <p>Georgia, Taxes, California, Ohio, Florida are the top 5 states where school shooting occured the most each year.</p>
+    <hr>
+   
+            </div>
+            </div>
+      </div>
+          <div class="col-md-9">
+            <div class="panel panel-default" id = 'pie_panel'>
+              <div class="panel-body" id = "pie_title">
+              Year Pie
+              </div>
+            </div>
+            <div id="pie"></div>
+          </div>
+        </div>
+  </div>
+
+
+
+<div class="row">
+    <div class="container">
+    <div class="col-md-12">
+        <span style="display:block; height: 25px;"></span>
+  </div>
+</div>
+</div>
+       
+<div class="row">
+    <div class="container">
+    <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-body" id = "choose_state">
+              Select State
+              </div>
+              <div id = 'button2'>
+                  <select id = "buttonState"></select>
+          </div>
+          <div id = "word3">
+              <h3>Bar Chart</h3>
+              <p id = "PP">
+                From the bar chart, we can visualize which state's school type fom 2013 to 2018 have had the most school shooting incident 
+                by the numbers of each school type along with the list of school name under each table on the table right further.
+              </p>
+              <hr>
+              <p></p>
+            </div>
+  </div>
+</div>     
+<div class="col-md-5"> 
+    <div class="panel panel-default" id = 'bar_panel'>
+        <div class="panel-body" id = "bar_title">
+        School Type Bar 
+        </div>
+      </div>
+      <div id = 'bar'></div>
+ </div>
+
+ <div class="col-md-4"> 
+  <div class="panel panel-default" id = 'bar_panel'>
+      <div class="panel-body" id = "table_title">
+      School table
+      </div>
+    </div>
+    <div id = 'table'>
+      
+    </div>
+
+</div>
+ 
+</div>
+</div>
+
+<div class="row">
+  <div class="container">
+  <div class="col-md-4">
+    <div>
+      <p></p>
+      <p></p>
+    </div>
+    </div>
+  </div>
+</div>
+   
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<footer>Copyright 2018: Mike Wu</footer>
+
+    
+</body>
+</html>
