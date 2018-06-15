@@ -24,7 +24,7 @@ I wanted to make a data visualziation web dashboard to show more insights about 
 
 ### Project Preview
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](images/1.png)
 ![Alt text](relative/path/to/img.jpg?raw=true "Title")
 ![Alt text](relative/path/to/img.jpg?raw=true "Title")
 ![Alt text](relative/path/to/img.jpg?raw=true "Title")
