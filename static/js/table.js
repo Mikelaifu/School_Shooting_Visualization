@@ -9,12 +9,12 @@ function tabulate(data, columns) {
   
 
   // append the header row
-  thead.append('tr')
-    .selectAll('th')
-    .data(columns).enter()
-    .append('th')
-    .attr('scope', "col")
-      .text(function (column) { return column; });
+//   thead.append('tr')
+//     .selectAll('th')
+//     .data(columns).enter()
+//     .append('th')
+//     .attr('scope', "col")
+//       .text(function (column) { return column; });
 
   // create a row for each object in the data
   var rows = tbody.selectAll('tr')
