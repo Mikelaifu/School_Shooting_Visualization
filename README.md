@@ -17,7 +17,7 @@ I wanted to make a data visualziation web dashboard to show more insights about 
 * Saved and pulled cleaned data into local Sqlite using SQalchemy 
 * Designed Front-end prject apearance in HTML5 and determined which visualization are needed to showcase data stories
 * Constructed endpoints from local APIs (Flask) to send data and data struture supports for each visualziation
-* Coordinated with Flask, I visualized interative 3 charts, a map and 2 tables to tell stories from different perspectives using    Javascript, JQuery, D3, Plotly.js, Mapbox and Leaflet
+* Coordinated with Flask, I visualized interative 3 charts, a map and 2 tables(with Pagination)to tell stories from different perspectives using    Javascript, JQuery, D3, Plotly.js, Mapbox and Leaflet
 * Troubleshoot and debugged throughout the whole process to make sure every functions designed went on successfully
 * Beautified two pages of website with bootstrap in layout, buttons, tables and then borrowed front images from https://www.pexels.com/
 * Deployed the whole web project on Heroku for more dispalying flexibility
