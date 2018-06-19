@@ -7,6 +7,10 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+from flask_cors import CORS, cross_origin
+
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 app = Flask(__name__)
 
@@ -62,10 +66,12 @@ def home():
     return render_template("index.html")
 
 @app.route("/table")
+@cross_origin()
 def table():
     return render_template("table.html")
 
 @app.route("/year")
+@cross_origin()
 def yearOPtion():
     df2= getData()
     df2['Date'] = pd.to_datetime(df2['Date'])
@@ -76,6 +82,7 @@ def yearOPtion():
     return jsonify(yearlst)
 
 @app.route("/state")
+@cross_origin()
 def stateOPtion():
     df2= getData()
     df2['State'] = [i.strip() for i in df2['State']]
@@ -86,6 +93,7 @@ def stateOPtion():
     return jsonify(statelst)
 
 @app.route("/map/<year>")
+@cross_origin()
 def map(year):
     df2 = getData()
     df2['Date'] = pd.to_datetime(df2['Date'])
@@ -113,6 +121,7 @@ def map(year):
     return jsonify(Outerlst)
 
 @app.route("/type/<state_name>")
+@cross_origin()
 def State_schoolType(state_name):
     result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
@@ -126,6 +135,7 @@ def State_schoolType(state_name):
     return jsonify(stateDict[state_name])
     
 @app.route("/table1/<state_name>")
+@cross_origin()
 def table1(state_name):
     result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
@@ -151,6 +161,7 @@ def table1(state_name):
     return jsonify(final)
 
 @app.route("/table2")
+@cross_origin()
 def table2():
     result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State,  School_shooting.School_Name, School_shooting.Death,
                       School_shooting.Injuries, School_shooting.School_Type).all()
