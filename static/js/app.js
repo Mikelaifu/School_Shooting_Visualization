@@ -4,8 +4,8 @@ var $buttonState = Plotly.d3.select("#buttonState");
 
 function BuildDropdown() {
   // Get data from '/names' endpoint
-  base_url = 'http://127.0.0.1:5000'
-  url = base_url + "/year"
+//   base_url = 'http://127.0.0.1:5000'
+  url = "/year"
   Plotly.d3.json(url, function(error, response) {
       console.log(response)
       $buttonYear.on('change', optionChanged);
@@ -36,8 +36,8 @@ function optionChanged() {
 };
 
 function BuildDropdown2() {
-  base_url = 'http://127.0.0.1:5000'
-  url = base_url + "/state"
+//   base_url = 'http://127.0.0.1:5000'
+  url = "/state"
   Plotly.d3.json(url, function(error, response) {
       // console.log(response);
 
@@ -71,8 +71,8 @@ BuildDropdown2();
 
 
 function buildMap(year) {
-    base_url = 'http://127.0.0.1:5000';
-    url = base_url + '/map/' + year;
+    
+    url = '/map/' + year;
     
     d3.json(url , function(error, data) {
     
@@ -171,8 +171,8 @@ function buildMap(year) {
 // build pie chart
 
 function BuildPie(year) {
-        base_url = 'http://127.0.0.1:5000';
-        url = base_url + '/map/' + year;
+        // base_url = 'http://127.0.0.1:5000';
+        url = '/map/' + year;
        
             console.log(url)
 
@@ -290,8 +290,8 @@ return color;
 
 function updateBarChart(state){
 
-    base_url = 'http://127.0.0.1:5000';
-    url = base_url + '/type/' + state;
+    
+    url =  '/type/' + state;
         
             console.log(url);
     
@@ -341,8 +341,8 @@ function updateBarChart(state){
 //http://bl.ocks.org/yan2014/c9dd6919658991d33b87
 function updatetable1(state){
 
-        base_url = 'http://127.0.0.1:5000';
-        url = base_url + '/table1/' + state;
+        // base_url = 'http://127.0.0.1:5000';
+        url = '/table1/' + state;
 
         console.log("table", url);
 
