@@ -189,8 +189,6 @@ def table2():
             name.append(i.upper().strip())
         
     df2['School_Name'] = name
-        
-    
     nulllist = []
     for i in df2['School_Name']:
         if i == None:
