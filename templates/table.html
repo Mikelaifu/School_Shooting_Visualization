@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-
+  
   <style>   
   body{
     background-color: black;
@@ -174,7 +174,8 @@ div.pager span {
   #h2 {
     height: 31px;
     width: 15px;
-    text-align: right;
+    /* text-align: right; */
+    text-align: left;
   }
 
   #h3 {
@@ -186,24 +187,29 @@ div.pager span {
   #h4 {
     height: 31px;
     width: 70px;
+    /* text-align: right; */
     text-align: right;
   }
 
   #h5 {
     height: 31px;
-    width: 240px;
+    width: 224px;
+    /* text-align: right; */
     text-align: right;
   }
 
   #h6 {
     height: 31px;
-    width: 265px;
+    width: 260px;
     text-align: right;
+    /* text-align: center; */
   }
 
   #h7 {
 
-    text-align: right;
+    /* text-align: right; */
+    text-align: center;
+    
   }
 
 
@@ -274,7 +280,8 @@ div.pager span {
 
                 </tr>
               </tbody>
-            </table></div>
+            </table>
+          </div>
             <div id="table"></div>
         </div>
       </div>
@@ -285,7 +292,7 @@ div.pager span {
   
   <!-- <script src="{{ url_for('static', filename='js/table.js') }}"></script> -->
   <script src="{{ url_for('static', filename='js/table.js') }}"></script>
-  <script>
+  <!-- <script>
 
     var $table = $('table#myTable'),
     $bodyCells = $table.find('tbody tr:first').children(),
@@ -303,7 +310,7 @@ div.pager span {
             $(v).width(colWidth[i]);
         });    
     }).resize(); // Trigger resize handler
-  </script>
+  </script> -->
   <footer>Copyright 2018: Mike Wu</footer>
 </body>
 

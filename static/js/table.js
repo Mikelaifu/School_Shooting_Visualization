@@ -5,9 +5,6 @@ function tabulate(data, columns) {
   var thead = table.append('thead');
   var	tbody = table.append('tbody');
 
-
-  
-
   // append the header row
   // thead.append('tr')
   // .attr("class", "headerRow")
@@ -35,7 +32,7 @@ function tabulate(data, columns) {
       .text(function (d) { return d.value; });
 
   return table;
-}
+};
   
   url = '/table2';
   d3.json(url,  function(dataSet) {
@@ -51,9 +48,9 @@ function tabulate(data, columns) {
   
   function mySearch() {
     // Declare variables 
-    var input1, input2, input3, input4, input5,input6,input7 ;
-    var filter1, filter2, filter3, filter4, filter5,filter6,filter7, table, tr, td, i;
-    var found1, found2, found3, found4, found5,found6,found7;
+    var input1, input2, input3, input4 ;
+    var filter1, filter2, filter3, filter4, table, tr, td, i;
+    var found1, found2, found3, found4;
     input1 = document.getElementById("search1");
     filter1 = input1.value.toUpperCase();
     input2 = document.getElementById("search2");
@@ -62,12 +59,6 @@ function tabulate(data, columns) {
     filter3 = input3.value.toUpperCase();
     input4 = document.getElementById("search4");
     filter4 = input4.value.toUpperCase();
-    // input5 = document.getElementById("search5");
-    // filter5 = input5.value.toUpperCase();
-    // input6 = document.getElementById("search6");
-    // filter6 = input4.value.toUpperCase();s
-    // input7 = document.getElementById("search7");
-    // filter7 = input4.value.toUpperCase();
     table = document.getElementById("myTable");
     tr = table.getElementsByTagName("tr");
   
@@ -79,11 +70,7 @@ function tabulate(data, columns) {
       found2 = true;
       found3 = true;
       found4 = true;
-      // found5 = true;
-      // found6 = true;
-      // found7 = true;
-      
-  
+    
       if (td) {
         
         if (filter1) {
@@ -112,9 +99,6 @@ function tabulate(data, columns) {
             }
         }
         
-        
-        
-        
         if (found1 && found2 && found3 && found4 ) {
           tr[i].style.display = "";
   
@@ -124,4 +108,21 @@ function tabulate(data, columns) {
        
     }
   }
-  }
+  };
+
+  var $table = $('table#myTable'),
+  $bodyCells = $table.find('tbody tr:first').children(),
+  colWidth;
+
+  // Adjust the width of thead cells when window resizes
+  $(window).resize(function() {
+      // Get the tbody columns width array
+      colWidth = $bodyCells.map(function() {
+          return $(this).width();
+      }).get();
+      
+      // Set the width of thead columns
+      $table.find('thead tr').children().each(function(i, v) {
+          $(v).width(colWidth[i]);
+      });    
+  }).resize(); // Trigger resize handler
