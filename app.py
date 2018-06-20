@@ -203,8 +203,8 @@ def table2():
         for j in range(len(names)):
             innerList.append(df2.loc[i, names[j]])
         Outerlst.append(dict(zip(names, innerList)))
-    if Outerlst.method == 'POST':
-        return jsonify(**Outerlst)
+    
+    return jsonify(Outerlst)
 
 if __name__ == "__main__":
     app.run(debug=True)
