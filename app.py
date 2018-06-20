@@ -205,12 +205,6 @@ def table2():
         Outerlst.append(dict(zip(names, innerList)))
         
     return jsonify(Outerlst)
-if __name__ == '__main__':
-    app.debug = True
-    app.run()
-
-    
-
 
 if __name__ == "__main__":
     app.run(debug=True)
