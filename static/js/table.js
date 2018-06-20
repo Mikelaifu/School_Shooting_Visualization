@@ -34,7 +34,7 @@ function tabulate(data, columns) {
   return table;
 };
   
-  url = '/table2';
+  var url = '/table2';
   d3.json(url,  function(dataSet) {
       
     console.log(dataSet);
