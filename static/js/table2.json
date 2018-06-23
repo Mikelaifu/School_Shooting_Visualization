@@ -1,0 +1,3035 @@
+[
+  {
+    "Date": "2013-01-07", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "FORT MYERS", 
+    "School_Name": "APOSTOLIC REVIVAL CENTER CHRISTIAN SCHOOL", 
+    "School_Type": "PRESCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2013-01-10", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "TAFT", 
+    "School_Name": "TAFT UNION HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2013-01-12", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "DETROIT", 
+    "School_Name": "OSBORN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2013-01-15", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "ST. LOUIS", 
+    "School_Name": "STEVENS INSTITUTE OF BUSINESS & ARTS", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2013-01-15", 
+    "Death": 3, 
+    "Injuries": 0, 
+    "Location": "HAZARD", 
+    "School_Name": "HAZARD COMMUNITY AND TECHNICAL COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "KY"
+  }, 
+  {
+    "Date": "2013-01-16", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "CHICAGO", 
+    "School_Name": "CHICAGO STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "IL"
+  }, 
+  {
+    "Date": "2013-01-22", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "HOUSTON", 
+    "School_Name": "LONE STAR COLLEGE NORTH HARRIS CAMPUS", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2013-01-31", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "PHOENIX", 
+    "School_Name": "CESAR CHAVEZ HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AZ"
+  }, 
+  {
+    "Date": "2013-01-31", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "ATLANTA", 
+    "School_Name": "PRICE MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-03-18", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "ORLANDO", 
+    "School_Name": "UNIVERSITY OF CENTRAL FLORIDA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2013-04-12", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "CHRISTIANSBURG", 
+    "School_Name": "NEW RIVER COMMUNITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2013-04-16", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "TUSCALOOSA", 
+    "School_Name": "STILLMAN COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2013-04-18", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "CAMBRIDGE", 
+    "School_Name": "MIT", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MA"
+  }, 
+  {
+    "Date": "2013-05-14", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "BIRMINGHAM", 
+    "School_Name": "OSSIE WARE MITCHELL MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2013-06-07", 
+    "Death": 6, 
+    "Injuries": 4, 
+    "Location": "SANTA MONICA", 
+    "School_Name": "SANTA MONICA COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2013-08-20", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "DECATUR", 
+    "School_Name": "RONALD E. MCNAIR DISCOVERY LEARNING ACADEMY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-08-23", 
+    "Death": 1, 
+    "Injuries": 2, 
+    "Location": "SARDIS", 
+    "School_Name": "NORTH PANOLA HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MS"
+  }, 
+  {
+    "Date": "2013-08-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "WINSTON-SALEM", 
+    "School_Name": "CARVER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2013-10-04", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "PINE HILLS", 
+    "School_Name": "AGAPE CHRISTIAN ACADEMY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2013-10-21", 
+    "Death": 2, 
+    "Injuries": 2, 
+    "Location": "SPARKS", 
+    "School_Name": "SPARKS MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "NV"
+  }, 
+  {
+    "Date": "2013-11-02", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "GREENSBORO", 
+    "School_Name": "NORTH CAROLINA A&T STATE UNIVERSITY", 
+    "School_Type": "PRESCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2013-11-03", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "STONE MOUNTAIN", 
+    "School_Name": "STEPHENSON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-11-13", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "PITTSBURGH", 
+    "School_Name": "BRASHEAR HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2013-12-04", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "WINTER GARDEN", 
+    "School_Name": "WEST ORANGE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2013-12-13", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "CENTENNIAL", 
+    "School_Name": "ARAPAHOE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CO"
+  }, 
+  {
+    "Date": "2013-12-19", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "FRESNO", 
+    "School_Name": "EDISON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2014-01-09", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "JACKSON", 
+    "School_Name": "LIBERTY TECHNOLOGY MAGNET HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2014-01-13", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "NEW HAVEN", 
+    "School_Name": "HILLHOUSE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CT"
+  }, 
+  {
+    "Date": "2014-01-14", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "ROSWELL", 
+    "School_Name": "BERRENDO MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "NM"
+  }, 
+  {
+    "Date": "2014-01-17", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "PHILADELPHIA", 
+    "School_Name": "DELAWARE VALLEY CHARTER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2014-01-20", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "CHESTER", 
+    "School_Name": "WIDENER UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2014-01-21", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "WEST LAFAYETTE", 
+    "School_Name": "PURDUE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2014-01-24", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "ORANGEBURG", 
+    "School_Name": "SOUTH CAROLINA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2014-01-25", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "LOS ANGELES", 
+    "School_Name": "ANGELES VALLEY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2014-01-27", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "CARBONDALE", 
+    "School_Name": "REBOUND HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IL"
+  }, 
+  {
+    "Date": "2014-01-28", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "NASHVILLE", 
+    "School_Name": "TENNESSEE STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2014-01-28", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "GRAMBLING", 
+    "School_Name": "GRAMBLING STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2014-01-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "PALM BAY", 
+    "School_Name": "EASTERN FLORIDA STATE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-01-31", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "PHOENIX", 
+    "School_Name": "CESAR CHAVEZ HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AZ"
+  }, 
+  {
+    "Date": "2014-01-31", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "DES MOINES", 
+    "School_Name": "NORTH HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IA"
+  }, 
+  {
+    "Date": "2014-02-10", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "SALISBURY", 
+    "School_Name": "SALISBURY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2014-02-10", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "LYNDHURST", 
+    "School_Name": "CHARLES F. BRUSH HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2014-02-12", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "LOS ANGELES", 
+    "School_Name": "UNIVERSITY OF SOUTHERN CALIFORNIA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2014-02-22", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "AUGUSTA", 
+    "School_Name": "GEORGIA REGENTS UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-03-12", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "MIAMI", 
+    "School_Name": "THE ACADEMY OF KNOWLEDGE PRESCHOOL", 
+    "School_Type": "PRESCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-04-09", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "GREENVILLE", 
+    "School_Name": "D. H. CONLEY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2014-04-11", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "DETROIT", 
+    "School_Name": "EAST ENGLISH VILLAGE PREPARATORY ACADEMY", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2014-05-04", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "AUGUSTA", 
+    "School_Name": "PAINE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-05-08", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "GEORGETOWN", 
+    "School_Name": "GEORGETOWN COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "KY"
+  }, 
+  {
+    "Date": "2014-05-08", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "LAWRENCEVILLE", 
+    "School_Name": "GEORGIA GWINNETT COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-05-14", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "RICHMOND", 
+    "School_Name": "JOHN F. KENNEDY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2014-06-05", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "SEATTLE", 
+    "School_Name": "SEATTLE PACIFIC UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2014-06-10", 
+    "Death": 2, 
+    "Injuries": 1, 
+    "Location": "TROUTDALE", 
+    "School_Name": "REYNOLDS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OR"
+  }, 
+  {
+    "Date": "2014-09-09", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "MIAMI", 
+    "School_Name": "-", 
+    "School_Type": "-", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-09-11", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "TAYLORSVILLE", 
+    "School_Name": "WESTBROOK ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2014-09-27", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "TERRE HAUTE", 
+    "School_Name": "INDIANA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2014-09-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "ALBERMARLE", 
+    "School_Name": "ABERMARLE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2014-09-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "LOUISVILLE", 
+    "School_Name": "FERN CREEK HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "KY"
+  }, 
+  {
+    "Date": "2014-10-03", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "FAIRBURN", 
+    "School_Name": "LANGSTON HUGHES HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-10-24", 
+    "Death": 5, 
+    "Injuries": 1, 
+    "Location": "MARYSVILLE", 
+    "School_Name": "MARYSVILLE PILCHUCK HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2014-11-20", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "TALLAHASSE", 
+    "School_Name": "FLORIDA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-11-20", 
+    "Death": 1, 
+    "Injuries": 1, 
+    "Location": "MIAMI", 
+    "School_Name": "MIAMI CAROL CITY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-12-05", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "CLAREMORE", 
+    "School_Name": "ROGERS STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OK"
+  }, 
+  {
+    "Date": "2014-12-12", 
+    "Death": 0, 
+    "Injuries": 4, 
+    "Location": "PORTLAND", 
+    "School_Name": "ROSEMARY ANDERSON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OR"
+  }, 
+  {
+    "Date": "2015-01-15", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "MILWAUKEE", 
+    "School_Name": "WISCONSON LUTHERAN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2015-01-16", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "OCALA", 
+    "School_Name": "VANGUARD HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-02-04", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "FREDERICK", 
+    "School_Name": "FREDERICK HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2015-02-14", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "MERCED", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2015-02-23", 
+    "Death": 0, 
+    "Injuries": 3, 
+    "Location": "DAYTONA BEACH", 
+    "School_Name": "BETHUNE-COOKMAN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-03-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "UNIVERSITY CITY", 
+    "School_Name": "-", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2015-04-13", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "GOLDSBORO", 
+    "School_Name": "WAYNE COMMUNITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-04-16", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "PARADIS", 
+    "School_Name": "-", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2015-04-27", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "LACEY", 
+    "School_Name": "NORTH THURSTON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2015-05-12", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "TEMPE", 
+    "School_Name": "CORONA DEL SOL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AZ"
+  }, 
+  {
+    "Date": "2015-05-24", 
+    "Death": 0, 
+    "Injuries": 7, 
+    "Location": "FLINT", 
+    "School_Name": "SOUTHWESTERN CLASSICAL ACADEMY", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2015-08-27", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "SAVANNAH", 
+    "School_Name": "SAVANNAH STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2015-09-03", 
+    "Death": 1, 
+    "Injuries": 2, 
+    "Location": "SACRAMENTO", 
+    "School_Name": "SACRAMENTO CITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2015-09-14", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "CLEVELAND", 
+    "School_Name": "DELTA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MS"
+  }, 
+  {
+    "Date": "2015-09-30", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "HARRISBURG", 
+    "School_Name": "HARRISBURG HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "SD"
+  }, 
+  {
+    "Date": "2015-10-01", 
+    "Death": 10, 
+    "Injuries": 9, 
+    "Location": "ROSEBURG", 
+    "School_Name": "UMPQUA COMMUNITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OR"
+  }, 
+  {
+    "Date": "2015-10-09", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "FLAGSTAFF", 
+    "School_Name": "NORTHERN ARIZONA UNIVERSITY - FLAGSTAFF", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AZ"
+  }, 
+  {
+    "Date": "2015-10-09", 
+    "Death": 1, 
+    "Injuries": 1, 
+    "Location": "HOUSTON", 
+    "School_Name": "TEXAS SOUTHERN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-10-22", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "NASHVILLE", 
+    "School_Name": "TENNESSEE STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2015-11-01", 
+    "Death": 1, 
+    "Injuries": 1, 
+    "Location": "WINSTON-SALEM", 
+    "School_Name": "WINSTON-SALEM STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-11-20", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "NORTH LAS VEGAS", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NV"
+  }, 
+  {
+    "Date": "2016-01-22", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "INDIANAPOLIS", 
+    "School_Name": "LAWRENCE CENTRAL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2016-01-29", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "PHILADELPHIA", 
+    "School_Name": "BENJAMIN FRANKLIN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2016-02-09", 
+    "Death": 0, 
+    "Injuries": 4, 
+    "Location": "MUSKEGON HEIGHTS", 
+    "School_Name": "MUSKEGON HEIGHTS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2016-02-12", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "GLENDALE", 
+    "School_Name": "INDEPENDENCE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AZ"
+  }, 
+  {
+    "Date": "2016-02-29", 
+    "Death": 0, 
+    "Injuries": 4, 
+    "Location": "MIDDLETOWN", 
+    "School_Name": "MADISON HIGH SCHOOL", 
+    "School_Type": "K-12 SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2016-04-23", 
+    "Death": 1, 
+    "Injuries": 2, 
+    "Location": "ANTIGO", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2016-06-01", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "LOS ANGELES", 
+    "School_Name": "UNIVERSITY OF CALIFORNIA-LOS ANGELES", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2016-06-08", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "DORCHESTER", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MA"
+  }, 
+  {
+    "Date": "2016-09-09", 
+    "Death": 1, 
+    "Injuries": 2, 
+    "Location": "ALPINE", 
+    "School_Name": "AUBURN UNIVERSITY AT MONTGOMERY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-09-28", 
+    "Death": 2, 
+    "Injuries": 2, 
+    "Location": "TOWNVILLE", 
+    "School_Name": "TOWNVILLE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2016-10-11", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "PRICHARD", 
+    "School_Name": "VIGOR HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2016-10-13", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "COLUMBUS", 
+    "School_Name": "-", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2016-10-18", 
+    "Death": 0, 
+    "Injuries": 4, 
+    "Location": "SAN FRANCISCO", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2016-10-25", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "SANDY", 
+    "School_Name": "-", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2016-12-01", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "BOUNTIFUL", 
+    "School_Name": "MUELLER PARK JUNIOR HIGH SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2017-01-20", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "WEST LIBERTY", 
+    "School_Name": "WEST LIBERTY-SALEM HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-01-20", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "WEST LIBERTY", 
+    "School_Name": "UNIVERSITY OF WASHINGTON", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-03-21", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "KING CITY", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2017-04-10", 
+    "Death": 3, 
+    "Injuries": 1, 
+    "Location": "SAN BERNARDINO", 
+    "School_Name": "NORTH PARK ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2017-05-04", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "IRVING", 
+    "School_Name": "-", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-09-13", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "ROCKFORD", 
+    "School_Name": "FREEMAN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2017-09-20", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "MATTOON", 
+    "School_Name": "MATTOON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IL"
+  }, 
+  {
+    "Date": "2017-11-14", 
+    "Death": 6, 
+    "Injuries": 18, 
+    "Location": "CORNING", 
+    "School_Name": "RANCHO TEHAMA ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2017-12-07", 
+    "Death": 3, 
+    "Injuries": 0, 
+    "Location": "AZTEC", 
+    "School_Name": "AZTEC HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NM"
+  }, 
+  {
+    "Date": "2018-01-10", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "DENISON", 
+    "School_Name": "GRAYSON COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2018-01-20", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "WINSTON-SALEM", 
+    "School_Name": "WAKE FOREST UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2018-01-22", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "ITALY", 
+    "School_Name": "ITALY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2018-01-22", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "NEW ORLEANS", 
+    "School_Name": "THE NET CHARTER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2018-01-23", 
+    "Death": 2, 
+    "Injuries": 18, 
+    "Location": "BENTON", 
+    "School_Name": "MARSHALL COUNTY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "KY"
+  }, 
+  {
+    "Date": "2018-01-25", 
+    "Death": 0, 
+    "Injuries": 0, 
+    "Location": "MOBILE", 
+    "School_Name": "MURPHY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2018-01-31", 
+    "Death": 1, 
+    "Injuries": 0, 
+    "Location": "PHILADELPHIA", 
+    "School_Name": "LINCOLN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2018-02-01", 
+    "Death": 0, 
+    "Injuries": 5, 
+    "Location": "LOS ANGELES", 
+    "School_Name": "SALVADOR B. CASTRO MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2018-02-05", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "OXON HILL", 
+    "School_Name": "OXON HILL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2018-02-14", 
+    "Death": 17, 
+    "Injuries": 17, 
+    "Location": "PARKLAND", 
+    "School_Name": "MARJORY STONEMAN DOUGLAS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2018-03-02", 
+    "Death": 2, 
+    "Injuries": 0, 
+    "Location": "MOUNT PLEASANT", 
+    "School_Name": "CENTRAL MICHIGAN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2018-03-07", 
+    "Death": 1, 
+    "Injuries": 2, 
+    "Location": "BIRMINGHAM", 
+    "School_Name": "HUFFMAN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2018-03-09", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "LEXINGTON", 
+    "School_Name": "FREDERICK DOUGLASS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "KY"
+  }, 
+  {
+    "Date": "2018-03-14", 
+    "Death": 2, 
+    "Injuries": 1, 
+    "Location": "BIRMINGHAM", 
+    "School_Name": "-", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2018-03-20", 
+    "Death": 2, 
+    "Injuries": 1, 
+    "Location": "GREAT MILLS", 
+    "School_Name": "GREAT MILLS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2018-04-20", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "OCALA", 
+    "School_Name": "FOREST HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2018-05-11", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "PALMDALE", 
+    "School_Name": "HIGHLAND HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2018-05-16", 
+    "Death": 0, 
+    "Injuries": 1, 
+    "Location": "DIXON", 
+    "School_Name": "DIXON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IL"
+  }, 
+  {
+    "Date": "2018-05-18", 
+    "Death": 10, 
+    "Injuries": 14, 
+    "Location": "SANTA FE", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2018-05-18", 
+    "Death": 1, 
+    "Injuries": 3, 
+    "Location": "JONESBORO", 
+    "School_Name": "-", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2018-05-25", 
+    "Death": 0, 
+    "Injuries": 2, 
+    "Location": "NOBLESVILLE", 
+    "School_Name": "-", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2018-05-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FOWLERVILLE", 
+    "School_Name": "FOWLERVILLE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2018-05-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WAYNESBORO", 
+    "School_Name": "WAYNESBORO ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2018-04-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ATLANTA", 
+    "School_Name": "BENJAMIN ELIJAH MAYS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2018-04-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "JACKSON", 
+    "School_Name": "JACKSON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2018-04-12", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "RAYTOWN", 
+    "School_Name": "RAYTOWN SOUTH MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2018-03-16", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MISSOULA", 
+    "School_Name": "BIG SKY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MT"
+  }, 
+  {
+    "Date": "2018-03-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SEASIDE", 
+    "School_Name": "SEASIDE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2018-03-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALEXANDRIA", 
+    "School_Name": "GEORGE WASHINGTON MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2018-03-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CADET", 
+    "School_Name": "KINGSTON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2018-03-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAN MARCOS", 
+    "School_Name": "TEXAS STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2018-02-28", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DALTON", 
+    "School_Name": "DALTON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2018-02-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NORFOLK", 
+    "School_Name": "NORFOLK STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2018-02-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ITTA BENA", 
+    "School_Name": "MISSISSIPPI VALLEY STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MS"
+  }, 
+  {
+    "Date": "2018-02-26", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TACOMA", 
+    "School_Name": "OAKLAND HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2018-02-24", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAVANNAH", 
+    "School_Name": "SAVANNAH STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2018-02-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HAMMOND", 
+    "School_Name": "SOUTHEASTERN LOUISIANA UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2018-02-20", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MASSILLON", 
+    "School_Name": "JACKSON MEMORIAL MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2018-02-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COCONUT CREEK", 
+    "School_Name": "NORTH BROWARD PREPARATORY SCHOOL", 
+    "School_Type": "K-12 SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2018-02-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NEW YORK", 
+    "School_Name": "THE METROPOLITAN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NY"
+  }, 
+  {
+    "Date": "2018-01-26", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DEARBORN", 
+    "School_Name": "DEARBORN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2018-01-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MARSHALL", 
+    "School_Name": "WILEY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2018-01-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SEATTLE", 
+    "School_Name": "NEW START HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2017-12-31", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MARYSVILLE", 
+    "School_Name": "PINEWOOD ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2017-12-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LANCASTER", 
+    "School_Name": "LINCOLN ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2017-12-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BEECHER", 
+    "School_Name": "BEECHER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2017-12-14", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DALLAS", 
+    "School_Name": "ELISHA M. PEASE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-12-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MONACA", 
+    "School_Name": "PENN STATE BEAVER", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2017-12-12", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EAST STROUDSBURG", 
+    "School_Name": "EAST STROUDSBURG UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2017-12-12", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PASADENA", 
+    "School_Name": "SAM RAYBURN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-12-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HIGH POINT", 
+    "School_Name": "HIGH POINT CENTRAL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2017-11-30", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "VIRGINIA BEACH", 
+    "School_Name": "SALEM HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2017-11-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LIMA", 
+    "School_Name": "BATH HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-11-28", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAN JOSE", 
+    "School_Name": "BOOKSIN ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2017-11-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DENVER", 
+    "School_Name": "MANUAL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CO"
+  }, 
+  {
+    "Date": "2017-11-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "JACKSON", 
+    "School_Name": "NORTH SIDE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2017-11-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALBANY", 
+    "School_Name": "ALBANY STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2017-11-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MILLEDGEVILLE", 
+    "School_Name": "LAKEVIEW ACADEMY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2017-11-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TEXARKANA", 
+    "School_Name": "TEXARKANA COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-11-09", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FULTON COUNTY", 
+    "School_Name": "BENJAMIN BANNEKER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2017-11-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FORT WORTH", 
+    "School_Name": "TEXAS CHRISTIAN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-11-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LANSING", 
+    "School_Name": "PATTENGILL MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2017-10-31", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SALT LAKE CITY", 
+    "School_Name": "UNIVERSITY OF UTAH", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2017-10-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GRAMBLING", 
+    "School_Name": "GRAMBLING STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2017-10-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PETERSBURG", 
+    "School_Name": "VIRGINIA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2017-10-14", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PETERSBURG", 
+    "School_Name": "VIRGINIA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2017-10-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EASTON", 
+    "School_Name": "STONEHILL COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MA"
+  }, 
+  {
+    "Date": "2017-10-09", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LUBBOCK", 
+    "School_Name": "TEXAS TECH UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-09-30", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COMMODORE", 
+    "School_Name": "PURCHASE LINE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2017-09-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LEE'S SUMMIT", 
+    "School_Name": "LEE'S SUMMIT NORTH HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2017-09-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AKRON", 
+    "School_Name": "UNIVERSITY OF AKRON", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-09-12", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ST. PAUL", 
+    "School_Name": "ST. CATHERINE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MN"
+  }, 
+  {
+    "Date": "2017-09-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLUMBUS", 
+    "School_Name": "COLUMBUS SCIOTO 6-12", 
+    "School_Type": "K-12 SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-09-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NORTH LITTLE ROCK", 
+    "School_Name": "NORTH LITTLE ROCK HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AR"
+  }, 
+  {
+    "Date": "2017-09-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NASHVILLE", 
+    "School_Name": "TENNESSEE STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2017-09-01", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLLEGE STATION", 
+    "School_Name": "TEXAS A&M UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-08-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LITHIA SPRINGS", 
+    "School_Name": "LITHIA SPRINGS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2017-07-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FAYETTEVILLE", 
+    "School_Name": "UNIVERSITY OF ARKANSAS", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AR"
+  }, 
+  {
+    "Date": "2017-07-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SPANISH FORK", 
+    "School_Name": "SPANISH FORK HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2017-07-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MILWAUKEE", 
+    "School_Name": "HICKMAN ACADEMY PREPATORY SCHOOL", 
+    "School_Type": "K-12 SCHOOL", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2017-07-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LAS VEGAS", 
+    "School_Name": "UNIVERSITY OF NEVADA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NV"
+  }, 
+  {
+    "Date": "2017-06-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FLORENCE", 
+    "School_Name": "WILSON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2017-06-16", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CHICAGO", 
+    "School_Name": "WARREN ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "IL"
+  }, 
+  {
+    "Date": "2017-06-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FORT WAYNE", 
+    "School_Name": "RAVENSCROFT BEAUTY COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2017-05-24", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GREENSBORO", 
+    "School_Name": "GREENSBORO HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2017-05-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "KIRBYVILLE", 
+    "School_Name": "KIRBYVILLE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-05-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MOSS BLUFF", 
+    "School_Name": "MOSS BLUFF ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2017-05-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "IRVING", 
+    "School_Name": "NORTH LAKE COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2017-04-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "OREM", 
+    "School_Name": "UTAH VALLEY UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2017-04-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TULSA", 
+    "School_Name": "BOOKER T. WASHINGTON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OK"
+  }, 
+  {
+    "Date": "2017-04-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ST. PAUL", 
+    "School_Name": "UNIVERSITY OF ST. THOMAS", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MN"
+  }, 
+  {
+    "Date": "2017-03-31", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PENSACOLA", 
+    "School_Name": "UNIVERSITY OF WEST FLORIDA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2017-03-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GAFFNEY", 
+    "School_Name": "LIMESTONE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2017-03-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WILBERFORCE", 
+    "School_Name": "CENTRAL STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2017-02-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SCOTLANDVILLE", 
+    "School_Name": "SCOTLANDVILLE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2017-01-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AIKEN", 
+    "School_Name": "SOUTH AIKEN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2017-01-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MANHATTAN", 
+    "School_Name": "KANSAS STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "KS"
+  }, 
+  {
+    "Date": "2017-01-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EASTPOINT", 
+    "School_Name": "FRANKLIN COUNTY ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2017-01-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALEXANDER CITY", 
+    "School_Name": "ALEXANDER CITY MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2017-01-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LEBANON", 
+    "School_Name": "WARREN COUNTY CAREER CENTER", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2016-12-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SALT LAKE CITY", 
+    "School_Name": "UNIVERSITY OF UTAH", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2016-12-09", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ST. LOUIS", 
+    "School_Name": "BAYLESS HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2016-11-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ST. PAUL", 
+    "School_Name": "CROSSROADS ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "MN"
+  }, 
+  {
+    "Date": "2016-11-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AUBURN", 
+    "School_Name": "BAY CITY WESTERN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2016-11-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BERTHOUD", 
+    "School_Name": "BERTHOUD HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CO"
+  }, 
+  {
+    "Date": "2016-11-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GRAND JUNCTION", 
+    "School_Name": "GRAND JUNCTION HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "CO"
+  }, 
+  {
+    "Date": "2016-10-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HUNTSVILLE", 
+    "School_Name": "ALABAMA A&M UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2016-10-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CALEDONIA", 
+    "School_Name": "DAVENPORT UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2016-10-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FORT WORTH", 
+    "School_Name": "DUNBAR HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-09-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "STEPHENVILLE", 
+    "School_Name": "TARLETON STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-09-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALPINE", 
+    "School_Name": "ALPINE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-09-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TULSA", 
+    "School_Name": "MCLAIN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OK"
+  }, 
+  {
+    "Date": "2016-08-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BOONEVILLE", 
+    "School_Name": "NORTHEAST MISSISSIPPI COMMUNITY COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "MS"
+  }, 
+  {
+    "Date": "2016-07-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AVA", 
+    "School_Name": "AVA HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2016-07-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DALLAS", 
+    "School_Name": "EL CENTRO COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-06-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "VALLEJO", 
+    "School_Name": "SOLANO COMMUNITY COLLEGE", 
+    "School_Type": "COMMUNITY COLLEGE", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2016-06-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLUMBIA", 
+    "School_Name": "UNIVERSITY OF MISSOURI", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2016-05-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AUGUSTA", 
+    "School_Name": "AUGUSTA HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "KS"
+  }, 
+  {
+    "Date": "2016-05-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GREENVILLE", 
+    "School_Name": "SOUTHSIDE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2016-05-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "JAMAICA", 
+    "School_Name": "ST. JOHN'S UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NY"
+  }, 
+  {
+    "Date": "2016-05-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PANAMA CITY", 
+    "School_Name": "OSCAR PATTERSON ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2016-05-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLUMBIA", 
+    "School_Name": "UNIVERSITY OF MISSOURI", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2016-05-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TWIN FALLS", 
+    "School_Name": "ROBERT STUART MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "ID"
+  }, 
+  {
+    "Date": "2016-05-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BELTSVILLE", 
+    "School_Name": "HIGH POINT HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2016-05-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DALLAS", 
+    "School_Name": "KIMBALL HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-04-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CHARLESTON", 
+    "School_Name": "UNIVERSITY OF CHARLESTON", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WV"
+  }, 
+  {
+    "Date": "2016-04-16", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TUSKEGEE", 
+    "School_Name": "TUSKEGEE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2016-04-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MANHATTAN", 
+    "School_Name": "KANSAS STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "KS"
+  }, 
+  {
+    "Date": "2016-03-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TACOMA", 
+    "School_Name": "UNIVERSITY OF PUGET SOUND", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2016-03-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CHARLOTTE", 
+    "School_Name": "JOHNSON C. SMITH UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2016-03-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ATLANTA", 
+    "School_Name": "GEORGIA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2016-03-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BIRMINGHAM", 
+    "School_Name": "HUFFMAN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AL"
+  }, 
+  {
+    "Date": "2016-02-26", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PALESTINE", 
+    "School_Name": "PALESTINE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2016-02-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HOMOSASSA", 
+    "School_Name": "ROCK CRUSHER ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2016-01-20", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "INDIANAPOLIS", 
+    "School_Name": "NORTHWEST COMMUNITY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2016-01-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CAMDEN", 
+    "School_Name": "HARMONY GROVE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "AR"
+  }, 
+  {
+    "Date": "2016-01-12", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DOVER", 
+    "School_Name": "CENTRAL MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "DE"
+  }, 
+  {
+    "Date": "2015-12-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GREELEY", 
+    "School_Name": "-", 
+    "School_Type": "-", 
+    "State": "CO"
+  }, 
+  {
+    "Date": "2015-12-18", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "JACKSON", 
+    "School_Name": "LANE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2015-11-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLUMBUS", 
+    "School_Name": "OHIO STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2015-11-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SULPHUR ROCK", 
+    "School_Name": "SULPHUR ROCK MAGNET SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "AR"
+  }, 
+  {
+    "Date": "2015-11-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LECANTO", 
+    "School_Name": "LECANTO HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-11-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MOULTRIE", 
+    "School_Name": "VEREEN SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2015-10-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DURHAM", 
+    "School_Name": "NORTH CAROLINA CENTRAL UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-10-24", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAN ANTONIO", 
+    "School_Name": "ED WHITE MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-10-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LANGSTON", 
+    "School_Name": "LANGSTON UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OK"
+  }, 
+  {
+    "Date": "2015-10-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAN ANTONIO", 
+    "School_Name": "WAGNER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-10-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TAMPA", 
+    "School_Name": "UNIVERSITY OF SOUTH FLORIDA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-10-06", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HOUSTON", 
+    "School_Name": "TEXAS SOUTHERN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-10-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "UNIVERSITY CITY", 
+    "School_Name": "UNIVERSITY CITY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2015-09-28", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BUTTE", 
+    "School_Name": "MONTANA TECH OF THE UNIVERSITY OF MONTANA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MT"
+  }, 
+  {
+    "Date": "2015-09-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "STATESVILLE", 
+    "School_Name": "CENTRAL ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-09-11", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LAFAYETTE", 
+    "School_Name": "NORTHSIDE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2015-08-26", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HOUSTON", 
+    "School_Name": "TEXAS SOUTHERN UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-08-25", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AUGUSTA", 
+    "School_Name": "HORNSBY ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2015-08-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "RICHMOND", 
+    "School_Name": "WILLIAM VELASQUEZ ELEMENTARY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-08-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PARADISE", 
+    "School_Name": "PARADISE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-08-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WICHITA", 
+    "School_Name": "WICHITA STATE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "KS"
+  }, 
+  {
+    "Date": "2015-07-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GAINESVILLE", 
+    "School_Name": "UNIVERSITY OF FLORIDA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-07-24", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CONVERSE", 
+    "School_Name": "ELOLF ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-07-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DALLAS", 
+    "School_Name": "COPPELL MIDDLE SCHOOL EAST", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-06-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FORT CALHOUN", 
+    "School_Name": "FORT CALHOUN ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "NE"
+  }, 
+  {
+    "Date": "2015-06-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FRANKLIN", 
+    "School_Name": "SOUTH MACON ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-05-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EVERGLADES CITY", 
+    "School_Name": "EVERGLADES CITY SCHOOL", 
+    "School_Type": "PRESCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2015-05-20", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ROBINSON", 
+    "School_Name": "ROBINSON HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-05-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CONYERS", 
+    "School_Name": "CONYERS MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2015-05-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "OREM", 
+    "School_Name": "UTAH VALLEY UNIVERISTY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2015-05-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CLEVELAND", 
+    "School_Name": "WILLOW ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2015-04-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LAS VEGAS", 
+    "School_Name": "RUTHE DESKIN ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "NV"
+  }, 
+  {
+    "Date": "2015-04-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CHARLOTTE", 
+    "School_Name": "JOHNSON C. SMITH UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2015-04-18", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "DOVER", 
+    "School_Name": "DELAWARE STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "DE"
+  }, 
+  {
+    "Date": "2015-04-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SEGUIN", 
+    "School_Name": "SEGUIN HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2015-04-04", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EVERETT", 
+    "School_Name": "EVERETT COMMUNITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2015-04-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MONACA", 
+    "School_Name": "COMMUNITY COLLEGE OF BEAVER COUNTY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2015-04-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "JACKSON", 
+    "School_Name": "LANE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2015-02-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LITTLE ROCK", 
+    "School_Name": "LAWSON ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "AR"
+  }, 
+  {
+    "Date": "2015-02-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ATHENS", 
+    "School_Name": "UNIVERSITY OF GEORGIA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2015-02-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MERCED", 
+    "School_Name": "TENAYA MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2015-02-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COLUMBIA", 
+    "School_Name": "UNIVERSITY OF SOUTH CAROLINA", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2015-02-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MANKATO", 
+    "School_Name": "MINNESOTA STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MN"
+  }, 
+  {
+    "Date": "2015-01-26", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ROSEVILLE", 
+    "School_Name": "HAND AND HAND MONTESSORI", 
+    "School_Type": "PRESCHOOL", 
+    "State": "MN"
+  }, 
+  {
+    "Date": "2015-01-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HARDEEVILLE", 
+    "School_Name": "ROYAL LIVE OAKS ACADEMY", 
+    "School_Type": "K-12 SCHOOL", 
+    "State": "SC"
+  }, 
+  {
+    "Date": "2014-12-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WATERVILLE", 
+    "School_Name": "BENTON ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "ME"
+  }, 
+  {
+    "Date": "2014-12-17", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PITTSBURGH", 
+    "School_Name": "SUNNYSIDE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2014-11-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ANNAPOLIS", 
+    "School_Name": "ST JOHNS COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2014-10-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MEMPHIS", 
+    "School_Name": "A. MACEO WALKER MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2014-10-18", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LANGSTON", 
+    "School_Name": "LANGSTON UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OK"
+  }, 
+  {
+    "Date": "2014-10-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NASHVILLE", 
+    "School_Name": "TENNESSEE STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2014-10-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ELIZABETH CITY", 
+    "School_Name": "ELIZABETH CITY STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2014-09-10", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LAKE MARY", 
+    "School_Name": "GREENWOOD LAKES MIDDLE SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-09-05", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAVANNAH", 
+    "School_Name": "SAVANNAH STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-09-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "POCATELLO", 
+    "School_Name": "IDAHO STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "ID"
+  }, 
+  {
+    "Date": "2014-08-14", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NEWPORT NEWS", 
+    "School_Name": "SAUNDERS ELEMENTARY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "VA"
+  }, 
+  {
+    "Date": "2014-08-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FREDRICK", 
+    "School_Name": "HEATHER RIDGE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2014-06-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MIAMI", 
+    "School_Name": "UNIVERSITY OF MIAMI", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2014-06-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BENTON", 
+    "School_Name": "KELLY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2014-05-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MILWAUKEE", 
+    "School_Name": "CLARKE STREET SCHOOL PLAYGROUND", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2014-05-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "EVERETT", 
+    "School_Name": "HORIZON ELEMENTARY", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "WA"
+  }, 
+  {
+    "Date": "2014-05-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MILWAUKEE", 
+    "School_Name": "MARQUETTE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2014-04-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GRIFFITH", 
+    "School_Name": "ST. MARY CATHOLIC SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "IN"
+  }, 
+  {
+    "Date": "2014-04-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "PROVO", 
+    "School_Name": "PROVO HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "UT"
+  }, 
+  {
+    "Date": "2014-04-16", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "COUNCIL BLUFFS", 
+    "School_Name": "IOWA WESTERN COMMUNITY COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "IA"
+  }, 
+  {
+    "Date": "2014-04-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "KENT", 
+    "School_Name": "KENT STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2014-03-30", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAVANNAH", 
+    "School_Name": "SAVANNAH STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2014-03-23", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "NEWARK", 
+    "School_Name": "UNIVERSITY OF DELAWARE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "DE"
+  }, 
+  {
+    "Date": "2014-03-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "OSHKOSH", 
+    "School_Name": "UNIVERSITY OF WISCONSIN - OSHKOSH", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "WI"
+  }, 
+  {
+    "Date": "2014-03-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "TALLULAH", 
+    "School_Name": "MADISON PARISH HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2014-03-02", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WESTMINSTER", 
+    "School_Name": "MCDANIEL COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MD"
+  }, 
+  {
+    "Date": "2014-02-20", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "RAYTOWN", 
+    "School_Name": "RAYTOWN SUCCESS ACADEMY", 
+    "School_Type": "PRESCHOOL", 
+    "State": "MO"
+  }, 
+  {
+    "Date": "2014-02-07", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "BEND", 
+    "School_Name": "BEND HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OR"
+  }, 
+  {
+    "Date": "2014-01-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "LANCASTER", 
+    "School_Name": "KING ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "PA"
+  }, 
+  {
+    "Date": "2013-11-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "RAPID CITY", 
+    "School_Name": "SOUTH DAKOTA SCHOOL OF MINES & TECHNOLOGY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "SD"
+  }, 
+  {
+    "Date": "2013-11-01", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALGONA", 
+    "School_Name": "ALGONA HIGH/MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "IA"
+  }, 
+  {
+    "Date": "2013-10-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "AUSTIN", 
+    "School_Name": "LANIER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TX"
+  }, 
+  {
+    "Date": "2013-09-28", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GRAY", 
+    "School_Name": "GRAY-NEW GLOUCESTER HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "ME"
+  }, 
+  {
+    "Date": "2013-09-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAVANNAH", 
+    "School_Name": "SAVANNAH STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-08-22", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "MEMPHIS", 
+    "School_Name": "WESTSIDE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2013-08-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CLARKSVILLE", 
+    "School_Name": "NORTHWEST HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "TN"
+  }, 
+  {
+    "Date": "2013-06-19", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "WEST PALM BEACH", 
+    "School_Name": "ALEXANDER W. DREYFOOS SCHOOL OF THE ARTS", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "FL"
+  }, 
+  {
+    "Date": "2013-05-03", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "HATTIESBURG", 
+    "School_Name": "UNIVERSITY OF SOUTHERN MISSISSIPPI", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "MS"
+  }, 
+  {
+    "Date": "2013-04-29", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "CINCINNATI", 
+    "School_Name": "LA SALLE HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "OH"
+  }, 
+  {
+    "Date": "2013-04-15", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "GRAMBLING", 
+    "School_Name": "GRAMBLING STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "LA"
+  }, 
+  {
+    "Date": "2013-04-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ELIZABETH CITY", 
+    "School_Name": "ELIZABETH CITY STATE UNIVERSITY", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "NC"
+  }, 
+  {
+    "Date": "2013-03-21", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SOUTHGATE", 
+    "School_Name": "DAVIDSON MIDDLE SCHOOL", 
+    "School_Type": "MIDDLE SCHOOL", 
+    "State": "MI"
+  }, 
+  {
+    "Date": "2013-02-27", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ATLANTA", 
+    "School_Name": "HENRY W. GRADY HIGH SCHOOL", 
+    "School_Type": "HIGH SCHOOL", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-02-13", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "SAN LEANDRO", 
+    "School_Name": "HILLSIDE ELEMENTARY SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "CA"
+  }, 
+  {
+    "Date": "2013-02-01", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "ALTANTA", 
+    "School_Name": "MOREHOUSE COLLEGE", 
+    "School_Type": "COLLEGE OR UNIVERSITY", 
+    "State": "GA"
+  }, 
+  {
+    "Date": "2013-01-08", 
+    "Death": "-", 
+    "Injuries": "-", 
+    "Location": "FORT MYERS", 
+    "School_Name": "APOSTOLIC REVIVAL CENTER CHRISTIAN SCHOOL", 
+    "School_Type": "ELEMENTARY SCHOOL", 
+    "State": "FL"
+  }
+]

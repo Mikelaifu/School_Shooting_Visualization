@@ -1,7 +1,8 @@
-url = '/table2';
-d3.json(url,  function(dataSet) {
-      
+
+d3.json('/table2',  function(error, dataSet) {
+    alert(error)
     console.log(dataSet);
+    
     // render the tables
 
     function tabulate(data, columns) {
@@ -39,7 +40,7 @@ d3.json(url,  function(dataSet) {
     
       return table;
     };
-    
+
     tabulate(dataSet, ['Date', 'Death', 'Injuries',  'Location',  'School_Name', 'School_Type', "State"]);
   
   
