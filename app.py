@@ -38,24 +38,50 @@ def dictTranform(dict_list):
                 innerList.append(df.loc[i, names[j]])
             Outerlst.append(dict(zip(names, innerList)))
         return Outerlst
-# cant put any function that pull data and use that data that pulled here later in each route
-# def schoolType(name):
-#         result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
-#         df2 = pd.DataFrame(result)
-#         df2 = df2.dropna()
-#         df2['State'] = [i.strip() for i in df2['State']]
-#         mask = df2['State'] == name
-#         df = df2[mask]
-#         count = df.groupby(['School_Type']).agg({"School_Name": "count"})
-#         count = count.reset_index()
-#         schoolType =list(df['School_Type'].unique())
-#         School_list = []
-#         for types in schoolType:
-#             mask = df["School_Type"] == types
-#             School_list.append(list(df[mask]['School_Name']))
-            
-#         ticks = dict(zip(schoolType, School_list))
-#         return ticks
+
+def cleanTable2(df2):
+
+        df2['Date'] = pd.to_datetime(df2['Date'])
+        df2['Date'] = [str(i).split(' ')[0] for i in df2['Date']]
+        comboLst = list(zip(df2['Death'][130:], df2["Injuries"][130:]))
+        Death = []
+        Injury = []
+        for j in comboLst:
+            if j[0] == 0 and j[1] == 0:
+                Death.append("-")
+                Injury.append("-")
+            else:
+                Death.append(j[0])
+                Injury.append(j[1])
+        df2['Death'] = list(df2['Death'][0:130]) + Death
+        df2['State'] = [i.split()[0] for i in df2['State']]
+        df2['Injuries'] = list(df2['Injuries'][0:130]) + Injury
+        df2['Location'] = [i.upper() for i in df2['Location']] 
+        Stype = []
+        for i in df2['School_Type']:
+            if i == None :
+                Stype.append("-")
+            else:
+                Stype.append(i.upper().strip())
+
+        df2['School_Type'] = Stype
+        name = []
+        for i in df2['School_Name']:
+            if i == None :
+                name.append("-")
+            else:
+                name.append(i.upper().strip())
+
+        df2['School_Name'] = name
+        nulllist = []
+        for i in df2['School_Name']:
+            if i == None:
+                nulllist.append("-")
+            else:
+                nulllist.append(i)
+        df2['School_Name'] = nulllist
+
+        return df2
 
 
 @app.route("/")
@@ -214,47 +240,7 @@ def table2():
     result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State,  School_shooting.School_Name, School_shooting.Death,
                       School_shooting.Injuries, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
-    df2['Date'] = pd.to_datetime(df2['Date'])
-    df2['Date'] = [str(i).split(' ')[0] for i in df2['Date']]
-    comboLst = list(zip(df2['Death'][130:], df2["Injuries"][130:]))
-    Death = []
-    Injury = []
-    for j in comboLst:
-        if j[0] == 0 and j[1] == 0:
-            Death.append("-")
-            Injury.append("-")
-        else:
-            Death.append(j[0])
-            Injury.append(j[1])
-    df2['Death'] = list(df2['Death'][0:130]) + Death
-    df2['State'] = [i.split()[0] for i in df2['State']]
-    df2['Injuries'] = list(df2['Injuries'][0:130]) + Injury
-    df2['Location'] = [i.upper() for i in df2['Location']] 
-    Stype = []
-    for i in df2['School_Type']:
-        if i == None :
-            Stype.append("-")
-        else:
-            Stype.append(i.upper().strip())
-        
-    df2['School_Type'] = Stype
-    name = []
-    for i in df2['School_Name']:
-        if i == None :
-            name.append("-")
-        else:
-            name.append(i.upper().strip())
-        
-    df2['School_Name'] = name
-        
-    
-    nulllist = []
-    for i in df2['School_Name']:
-        if i == None:
-            nulllist.append("-")
-        else:
-            nulllist.append(i)
-    df2['School_Name'] = nulllist
+    df2 = cleanTable2(df2)
     names = list(df2.columns)
     Outerlst = []
     for i in range(len(df2)):
