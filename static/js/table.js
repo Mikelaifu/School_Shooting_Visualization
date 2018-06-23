@@ -1,44 +1,45 @@
-function tabulate(data, columns) {
-  var table = d3.select('#table').append('table');
-  table.attr("class", "table table-striped table-dark");
-  table.attr("id", "myTable");
-  var thead = table.append('thead');
-  var	tbody = table.append('tbody');
-
-  // append the header row
-  // thead.append('tr')
-  // .attr("class", "headerRow")
-  //   .selectAll('th')
-  //   .data(columns).enter()
-  //   .append('th')
-  //   .attr('scope', "col")
-  //     .text(function (column) { return column; });
-
-  // create a row for each object in the data
-  var rows = tbody.selectAll('tr')
-    .data(data)
-    .enter()
-    .append('tr');
-
-  // create a cell in each row for each column
-  var cells = rows.selectAll('td')
-    .data(function (row) {
-      return columns.map(function (column) {
-        return {column: column, value: row[column]};
-      });
-    })
-    .enter()
-    .append('td')
-      .text(function (d) { return d.value; });
-
-  return table;
-};
-  
-  url = '/table2';
-  d3.json(url,  function(dataSet) {
+url = '/table2';
+d3.json(url,  function(dataSet) {
       
     console.log(dataSet);
     // render the tables
+
+    function tabulate(data, columns) {
+      var table = d3.select('#table').append('table');
+      table.attr("class", "table table-striped table-dark");
+      table.attr("id", "myTable");
+      var thead = table.append('thead');
+      var	tbody = table.append('tbody');
+    
+      // append the header row
+      // thead.append('tr')
+      // .attr("class", "headerRow")
+      //   .selectAll('th')
+      //   .data(columns).enter()
+      //   .append('th')
+      //   .attr('scope', "col")
+      //     .text(function (column) { return column; });
+    
+      // create a row for each object in the data
+      var rows = tbody.selectAll('tr')
+        .data(data)
+        .enter()
+        .append('tr');
+    
+      // create a cell in each row for each column
+      var cells = rows.selectAll('td')
+        .data(function (row) {
+          return columns.map(function (column) {
+            return {column: column, value: row[column]};
+          });
+        })
+        .enter()
+        .append('td')
+          .text(function (d) { return d.value; });
+    
+      return table;
+    };
+    
     tabulate(dataSet, ['Date', 'Death', 'Injuries',  'Location',  'School_Name', 'School_Type', "State"]);
   
   
