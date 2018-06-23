@@ -408,13 +408,13 @@ function tabulate(data, columns) {
     var	tbody = table.append('tbody');
   
     // append the header row
-    // thead.append('tr')
-    // .attr("class", "headerRow")
-    //   .selectAll('th')
-    //   .data(columns).enter()
-    //   .append('th')
-    //   .attr('scope', "col")
-    //     .text(function (column) { return column; });
+    thead.append('tr')
+    .attr("class", "headerRow")
+      .selectAll('th')
+      .data(columns).enter()
+      .append('th')
+      .attr('scope', "col")
+        .text(function (column) { return column; });
   
     // create a row for each object in the data
     var rows = tbody.selectAll('tr')
@@ -512,22 +512,22 @@ d3.json('/table2',  function(error, dataSet) {
 
 
 
-  var $table = $('table#myTable'),
-  $bodyCells = $table.find('tbody tr:first').children(),
-  colWidth;
+//   var $table = $('table#myTable'),
+//   $bodyCells = $table.find('tbody tr:first').children(),
+//   colWidth;
 
-  // Adjust the width of thead cells when window resizes
-  $(window).resize(function() {
-      // Get the tbody columns width array
-      colWidth = $bodyCells.map(function() {
-          return $(this).width();
-      }).get();
+//   // Adjust the width of thead cells when window resizes
+//   $(window).resize(function() {
+//       // Get the tbody columns width array
+//       colWidth = $bodyCells.map(function() {
+//           return $(this).width();
+//       }).get();
       
-      // Set the width of thead columns
-      $table.find('thead tr').children().each(function(i, v) {
-          $(v).width(colWidth[i]);
-      });    
-  }).resize(); // Trigger resize handler
+//       // Set the width of thead columns
+//       $table.find('thead tr').children().each(function(i, v) {
+//           $(v).width(colWidth[i]);
+//       });    
+//   }).resize(); // Trigger resize handler
 
         
  

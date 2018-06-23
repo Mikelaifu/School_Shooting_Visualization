@@ -21,13 +21,6 @@ session = Session(engine)
 
 app = Flask(__name__)
 
-# def getData():
-#     result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
-#                        School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
-#                       School_shooting.Injuries , School_shooting.School_Type).all()
-#     df2 = pd.DataFrame(result)
-#     df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
-#     return df2
 def dictTranform(dict_list):
         df = pd.DataFrame(dict_list)
         names = list(df.columns)
