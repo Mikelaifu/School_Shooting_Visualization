@@ -262,15 +262,7 @@ def table2():
         for j in range(len(names)):
             innerList.append(df2.loc[i, names[j]])
         Outerlst.append(dict(zip(names, innerList)))
-<<<<<<< HEAD
-    session.close()
-        
-    return jsonify(Outerlst)
 
-
-=======
->>>>>>> b49b925d2a0eab9b9edef13473deedbea49a9ecc
-    
     return jsonify(Outerlst)
 
 if __name__ == "__main__":
