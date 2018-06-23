@@ -8,7 +8,6 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-
 app = Flask(__name__)
 
 engine = create_engine("sqlite:///school.sqlite")
@@ -19,15 +18,16 @@ Base.prepare(engine, reflect= True)
 School_shooting = Base.classes.School_shooting
 session = Session(engine)
 
+
 app = Flask(__name__)
 
-def getData():
-    result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
-                       School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
-                      School_shooting.Injuries , School_shooting.School_Type).all()
-    df2 = pd.DataFrame(result)
-    df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
-    return df2
+# def getData():
+#     result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
+#                        School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
+#                       School_shooting.Injuries , School_shooting.School_Type).all()
+#     df2 = pd.DataFrame(result)
+#     df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
+#     return df2
 def dictTranform(dict_list):
         df = pd.DataFrame(dict_list)
         names = list(df.columns)
@@ -38,24 +38,24 @@ def dictTranform(dict_list):
                 innerList.append(df.loc[i, names[j]])
             Outerlst.append(dict(zip(names, innerList)))
         return Outerlst
-
-def schoolType(name):
-        result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
-        df2 = pd.DataFrame(result)
-        df2 = df2.dropna()
-        df2['State'] = [i.strip() for i in df2['State']]
-        mask = df2['State'] == name
-        df = df2[mask]
-        count = df.groupby(['School_Type']).agg({"School_Name": "count"})
-        count = count.reset_index()
-        schoolType =list(df['School_Type'].unique())
-        School_list = []
-        for types in schoolType:
-            mask = df["School_Type"] == types
-            School_list.append(list(df[mask]['School_Name']))
+# cant put any function that pull data and use that data that pulled here later in each route
+# def schoolType(name):
+#         result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
+#         df2 = pd.DataFrame(result)
+#         df2 = df2.dropna()
+#         df2['State'] = [i.strip() for i in df2['State']]
+#         mask = df2['State'] == name
+#         df = df2[mask]
+#         count = df.groupby(['School_Type']).agg({"School_Name": "count"})
+#         count = count.reset_index()
+#         schoolType =list(df['School_Type'].unique())
+#         School_list = []
+#         for types in schoolType:
+#             mask = df["School_Type"] == types
+#             School_list.append(list(df[mask]['School_Name']))
             
-        ticks = dict(zip(schoolType, School_list))
-        return ticks
+#         ticks = dict(zip(schoolType, School_list))
+#         return ticks
 
 
 @app.route("/")
@@ -63,33 +63,50 @@ def home():
     return render_template("index.html")
 
 @app.route("/table")
-
 def table():
     return render_template("table.html")
 
 @app.route("/year")
 def yearOPtion():
-    df2= getData()
+    session = Session(engine)
+    result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
+                       School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
+                      School_shooting.Injuries , School_shooting.School_Type).all()
+    df2 = pd.DataFrame(result)
+    df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
+    
     df2['Date'] = pd.to_datetime(df2['Date'])
     str_date = [str(date) for date in df2['Date'].dt.year]
     
     yearlst = list(set(str_date))
     yearlst.sort()
+    session.close()
     return jsonify(yearlst)
 
 @app.route("/state")
 def stateOPtion():
-    df2= getData()
+    session = Session(engine)
+    result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
+                       School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
+                      School_shooting.Injuries , School_shooting.School_Type).all()
+    df2 = pd.DataFrame(result)
+    df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
+    
     df2['State'] = [i.strip() for i in df2['State']]
     
     statelst = list(df2['State'].unique())
     statelst.sort()
-    
+    session.close()
     return jsonify(statelst)
 
 @app.route("/map/<year>")
 def map(year):
-    df2 = getData()
+    session = Session(engine)
+    result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State, School_shooting.Latitude, 
+                       School_shooting.Longitude, School_shooting.School_Name, School_shooting.Death,
+                      School_shooting.Injuries , School_shooting.School_Type).all()
+    df2 = pd.DataFrame(result)
+    df2['Year'] = ['20' + str(j).split("/")[2] for j in df2['Date']] 
     df2['Date'] = pd.to_datetime(df2['Date'])
     mask = df2["Year"] == str(year)
     yr = df2[mask]
@@ -112,29 +129,67 @@ def map(year):
                 next
             else:
                 Outerlst[index][key] = np.asscalar(np.array([value])) 
+    session.close()
     return jsonify(Outerlst)
 
 @app.route("/type/<state_name>")
 def State_schoolType(state_name):
+    session = Session(engine)
     result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
     df2 = df2.dropna()
     df2['State'] = [i.strip() for i in df2['State']]    
     statelst = list(df2['State'].unique())
     statelst.sort()
+    def schoolType(name):
+        result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
+        df2 = pd.DataFrame(result)
+        df2 = df2.dropna()
+        df2['State'] = [i.strip() for i in df2['State']]
+        mask = df2['State'] == name
+        df = df2[mask]
+        count = df.groupby(['School_Type']).agg({"School_Name": "count"})
+        count = count.reset_index()
+        schoolType =list(df['School_Type'].unique())
+        School_list = []
+        for types in schoolType:
+            mask = df["School_Type"] == types
+            School_list.append(list(df[mask]['School_Name']))
+            
+        ticks = dict(zip(schoolType, School_list))
+        return ticks
     stateDict = {}
     for name in statelst:
         stateDict[name] = schoolType(name)
+    session.close()
     return jsonify(stateDict[state_name])
     
 @app.route("/table1/<state_name>")
 def table1(state_name):
+    session = Session(engine)
     result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
     df2 = df2.dropna()
     df2['State'] = [i.strip() for i in df2['State']]    
     statelst = list(df2['State'].unique())
     statelst.sort()
+    def schoolType(name):
+        result = session.query(School_shooting.State, School_shooting.School_Name, School_shooting.School_Type).all()
+        df2 = pd.DataFrame(result)
+        df2 = df2.dropna()
+        df2['State'] = [i.strip() for i in df2['State']]
+        mask = df2['State'] == name
+        df = df2[mask]
+        count = df.groupby(['School_Type']).agg({"School_Name": "count"})
+        count = count.reset_index()
+        schoolType =list(df['School_Type'].unique())
+        School_list = []
+        for types in schoolType:
+            mask = df["School_Type"] == types
+            School_list.append(list(df[mask]['School_Name']))
+            
+        ticks = dict(zip(schoolType, School_list))
+        return ticks
     stateDict = {}
     for name in statelst:
         stateDict[name] = schoolType(name)
@@ -150,10 +205,12 @@ def table1(state_name):
             target[key] = target[key] + ["-" for i in range(max(length)-len(val))]
 
     final = dictTranform(target)
+    session.close()
     return jsonify(final)
 
 @app.route("/table2")
 def table2():
+    session = Session(engine)
     result = session.query(School_shooting.Date, School_shooting.Location, School_shooting.State,  School_shooting.School_Name, School_shooting.Death,
                       School_shooting.Injuries, School_shooting.School_Type).all()
     df2 = pd.DataFrame(result)
@@ -189,6 +246,8 @@ def table2():
             name.append(i.upper().strip())
         
     df2['School_Name'] = name
+        
+    
     nulllist = []
     for i in df2['School_Name']:
         if i == None:
@@ -203,6 +262,7 @@ def table2():
         for j in range(len(names)):
             innerList.append(df2.loc[i, names[j]])
         Outerlst.append(dict(zip(names, innerList)))
+    session.close()
         
     return jsonify(Outerlst)
 

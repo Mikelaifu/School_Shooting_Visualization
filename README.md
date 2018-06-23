@@ -1,6 +1,6 @@
 # School_Shooting_Visualization
 
-## Link: https://schoolshootingviz.herokuapp.com/
+## Link: 
 
 ### Project Introduction:
 
